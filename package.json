@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/aldoibuado/Case-Management/issues"
   },
-  "homepage": "https://github.com/aldoibuado/Case-Management#readme"
+  "homepage": "https://github.com/aldoibuado/Case-Management#readme",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
 }
