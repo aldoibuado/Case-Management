@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Case-Management/static/css/main.073c9b0a.css",
+    "main.js": "/Case-Management/static/js/main.b5d6fed5.js",
+    "static/js/787.0e058b16.chunk.js": "/Case-Management/static/js/787.0e058b16.chunk.js",
+    "static/media/logo.svg": "/Case-Management/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Case-Management/index.html",
+    "main.073c9b0a.css.map": "/Case-Management/static/css/main.073c9b0a.css.map",
+    "main.b5d6fed5.js.map": "/Case-Management/static/js/main.b5d6fed5.js.map",
+    "787.0e058b16.chunk.js.map": "/Case-Management/static/js/787.0e058b16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b5d6fed5.js"
+  ]
+}
