@@ -1,0 +1,26 @@
+{
+  "name": "case-management",
+  "version": "1.0.0",
+  "description": "![badge](https://img.shields.io/badge/license-MIT-brightgreen)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldoibuado/Case-Management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldoibuado/Case-Management/issues"
+  },
+  "homepage": "https://github.com/aldoibuado/Case-Management#readme"
+}
