@@ -1,14 +1,19 @@
 import React from "react";
-import { AppBar } from "@material-ui/core";
-import { Toolbar } from "@material-ui/core";
-import { CssBaseline } from "@material-ui/core";
-import { Typography } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core";
+import {
+  AppBar,
+  Toolbar,
+  CssBaseline,
+  Typography,
+  makeStyles,
+  useTheme,
+  useMediaQuery,
+} from "@material-ui/core";
 import { Link } from "react-router-dom";
+import DrawerComponent from "./Drawer";
 
 const useStyles = makeStyles((theme) => ({
   navlinks: {
-    marginLeft: theme.spacing(10),
+    marginLeft: theme.spacing(5),
     display: "flex",
   },
   logo: {
@@ -29,6 +34,8 @@ const useStyles = makeStyles((theme) => ({
 
 function Navbar() {
   const classes = useStyles();
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <AppBar position="static">
@@ -37,6 +44,9 @@ function Navbar() {
         <Typography variant="h4" className={classes.logo}>
           Nabar
         </Typography>
+        {isMobile ? (
+          <DrawerComponent />
+        ) : (
         <div className={classes.navlinks}>
           <Link to="/" className={classes.link}>
             Home
@@ -51,6 +61,7 @@ function Navbar() {
             Contact
           </Link>
         </div>
+        )}
       </Toolbar>
     </AppBar>
   );
