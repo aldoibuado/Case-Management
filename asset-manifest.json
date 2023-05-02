@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Case-Management/static/css/main.b0b87139.css",
-    "main.js": "/Case-Management/static/js/main.5d22e432.js",
+    "main.css": "/Case-Management/static/css/main.dd7e2fad.css",
+    "main.js": "/Case-Management/static/js/main.f356c8be.js",
     "static/js/787.0e058b16.chunk.js": "/Case-Management/static/js/787.0e058b16.chunk.js",
     "static/media/Fidem logo.png": "/Case-Management/static/media/Fidem logo.89cc0474767ae86c12f5.png",
     "index.html": "/Case-Management/index.html",
-    "main.b0b87139.css.map": "/Case-Management/static/css/main.b0b87139.css.map",
-    "main.5d22e432.js.map": "/Case-Management/static/js/main.5d22e432.js.map",
+    "main.dd7e2fad.css.map": "/Case-Management/static/css/main.dd7e2fad.css.map",
+    "main.f356c8be.js.map": "/Case-Management/static/js/main.f356c8be.js.map",
     "787.0e058b16.chunk.js.map": "/Case-Management/static/js/787.0e058b16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0b87139.css",
-    "static/js/main.5d22e432.js"
+    "static/css/main.dd7e2fad.css",
+    "static/js/main.f356c8be.js"
   ]
 }
