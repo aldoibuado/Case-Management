@@ -1,0 +1,28 @@
+.contactUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.contactUs input, textarea {
+    font-size: 15px;
+    border-radius: 1em;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.form {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid black;
+}
