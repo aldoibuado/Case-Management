@@ -1,4 +1,5 @@
 import React from "react";
+import fidem from "../assets/images/Fidem logo.png";
 import {
   AppBar,
   Toolbar,
@@ -10,6 +11,7 @@ import {
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import DrawerComponent from "./Drawer";
+import "../styles/Navbar.css";
 
 const useStyles = makeStyles((theme) => ({
   navlinks: {
@@ -42,15 +44,17 @@ function Navbar() {
       <CssBaseline />
       <Toolbar>
         <Typography variant="h4" className={classes.logo}>
-          Nabar
+          <Link to="/">
+            <img className="logo" src={fidem} alt="company logo"/>
+          </Link>
         </Typography>
         {isMobile ? (
           <DrawerComponent />
         ) : (
         <div className={classes.navlinks}>
-          <Link to="/" className={classes.link}>
+          {/* <Link to="/" className={classes.link}>
             Home
-          </Link>
+          </Link> */}
           <Link to="/about" className={classes.link}>
             About Us
           </Link>
