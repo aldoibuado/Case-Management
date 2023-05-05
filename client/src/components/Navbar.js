@@ -6,6 +6,7 @@ import fidem from "../assets/images/Fidem logo.png";
 import "../styles/Navbar.css";
 
 function Navbar() {
+  // Using useState and useEffect help with making the reorder button open and close showing the navlinks in mobile options
   const [mobile, setMobile] = useState(false);
   const [sidebar, setSidebar] = useState(false);
 
@@ -55,27 +56,37 @@ function Navbar() {
         {mobile && (
           <div className="sidebar-toggle">
             {sidebar ? (
-              <Icons.FaTimes className="sidebar-toggle-logo" onClick={() => setSidebar(!sidebar)} />
+              <Icons.FaTimes
+                className="sidebar-toggle-logo"
+                onClick={() => setSidebar(!sidebar)}
+              />
             ) : (
-              <Icons.FaBars className="sidebar-toggle-logo" onClick={() => setSidebar(!sidebar)} />
+              <Icons.FaBars
+                className="sidebar-toggle-logo"
+                onClick={() => setSidebar(!sidebar)}
+              />
             )}
           </div>
         )}
       </nav>
 
       <div className={sidebar ? "sidebar active" : "sidebar"}>
-      <ul className="sidebar-items">
-            {navItems.map((item) => {
-              return (
-                <li key={item.id} className={item.sName} onClick={() => setSidebar(false)}>
-                  <Link to={item.path}>
-                    {item.icon}
-                    <span>{item.title}</span>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+        <ul className="sidebar-items">
+          {navItems.map((item) => {
+            return (
+              <li
+                key={item.id}
+                className={item.sName}
+                onClick={() => setSidebar(false)}
+              >
+                <Link to={item.path}>
+                  {item.icon}
+                  <span>{item.title}</span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </>
   );
