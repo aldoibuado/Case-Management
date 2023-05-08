@@ -7,10 +7,9 @@ import {
   TextField,
   Button,
 } from "@material-ui/core";
-import contact from "../assets/images/Contact Us.png";
 import "../styles/Contact.css";
 
-// TODO: Make contact form and style it
+// TODO: Style contact form
 function Contact() {
   return (
     <div>
