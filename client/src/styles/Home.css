@@ -1,0 +1,27 @@
+.nurse {
+  width: 1550px;
+  height: 400px;
+}
+
+.home {
+    text-align: center;
+}
+
+.epic {
+    position: absolute;
+    top: 100px;
+    left: 40%;
+}
+
+.epic1 {
+    position: absolute;
+    bottom: 350px;
+    left: 25px;
+    color: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 1.5em;
+    width: 50%;
+    text-align: center;
+}

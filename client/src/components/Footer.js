@@ -27,6 +27,14 @@ function Footer () {
             </a>
           </div>
           <div className="sb_footer-links-div">
+            <h4>Contact</h4>
+            <p>Address: 12354 Northridge Dr.
+              Los Angeles, CA 95848
+            </p>
+            <p>Phone: xxx-xxx-xxxx</p>
+            <p> Email: fakeemail@email.com</p>
+          </div>
+          <div className="sb_footer-links-div">
             <h4>Social Media</h4>
             <div className="socialmedia">
               <p><img src={linkedin} alt="linkedin logo" /></p>
