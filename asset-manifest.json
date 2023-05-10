@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Case-Management/static/css/main.4f0ec081.css",
-    "main.js": "/Case-Management/static/js/main.1063d6c1.js",
+    "main.css": "/Case-Management/static/css/main.25327833.css",
+    "main.js": "/Case-Management/static/js/main.fad68d87.js",
     "static/js/787.0e058b16.chunk.js": "/Case-Management/static/js/787.0e058b16.chunk.js",
     "static/media/Fidem logo.png": "/Case-Management/static/media/Fidem logo.89cc0474767ae86c12f5.png",
     "static/media/nurse-helping-patient.jpg": "/Case-Management/static/media/nurse-helping-patient.42614deb12be754d5245.jpg",
     "static/media/nurse.jpg": "/Case-Management/static/media/nurse.1c7ae7091bfe26280673.jpg",
     "static/media/linkedin icon.png": "/Case-Management/static/media/linkedin icon.8747c659f1fe4f57b1c5.png",
     "index.html": "/Case-Management/index.html",
-    "main.4f0ec081.css.map": "/Case-Management/static/css/main.4f0ec081.css.map",
-    "main.1063d6c1.js.map": "/Case-Management/static/js/main.1063d6c1.js.map",
+    "main.25327833.css.map": "/Case-Management/static/css/main.25327833.css.map",
+    "main.fad68d87.js.map": "/Case-Management/static/js/main.fad68d87.js.map",
     "787.0e058b16.chunk.js.map": "/Case-Management/static/js/787.0e058b16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f0ec081.css",
-    "static/js/main.1063d6c1.js"
+    "static/css/main.25327833.css",
+    "static/js/main.fad68d87.js"
   ]
 }
