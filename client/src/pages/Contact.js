@@ -1,90 +1,25 @@
-import React from "react";
-import {
-  Typography,
-  Card,
-  CardContent,
-  Grid,
-  TextField,
-  Button,
-} from "@material-ui/core";
-import "../styles/Contact.css";
+import React from 'react';
+import nurse1 from '../assets/images/nurse.jpg';
+import '../styles/Contact.css';
 
-// TODO: Style contact form
 function Contact() {
   return (
-    <div>
-      <Card style={{maxWidth: 450, margin:"0 auto", padding: "20px 5px"}}>
-        <CardContent>
-          <Typography gutterBottom variant="h5">
-           Contact Us
-          </Typography>
-          <form>
-          <Grid container spacing={1}>
-            <Grid xs={12} sm={6} item>
-              <TextField
-                label="First Name"
-                placeholder="Enter first name"
-                variant="outlined"
-                fullWidth
-                required
-              />
-            </Grid>
-            <Grid xs={12} sm={6} item>
-              <TextField
-                label="Last Name"
-                placeholder="Enter last name"
-                variant="outlined"
-                fullWidth
-                required
-              />
-            </Grid>
-            <Grid xs={12} item>
-              <TextField
-                type="email"
-                label="Email"
-                placeholder="Enter email"
-                variant="outlined"
-                fullWidth
-                required
-              />
-            </Grid>
-            <Grid xs={12} item>
-              <TextField
-                type="number"
-                label="Phone"
-                placeholder="Enter phone number"
-                variant="outlined"
-                fullWidth
-                required
-              />
-            </Grid>
-            <Grid xs={12} item>
-              <TextField
-                label="Message"
-                multiline
-                minRows={4}
-                placeholder="Enter your message here"
-                variant="outlined"
-                fullWidth
-                required
-              />
-            </Grid>
-            <Grid xs={12} item>
-              <Button
-                type="submit"
-                variant="contained"
-                color="primary"
-                fullWidth
-              >
-                Submit
-              </Button>
-            </Grid>
-          </Grid>
-          </form>
-        </CardContent>
-      </Card>
+    <div className='contact'>
+       <div className='leftSide' style={{ backgroundImage: `url(${nurse1})` }}></div>
+       <div className="rightSide">
+        <h1> Contact Us </h1>
+        <form id="contact" method="POST">
+          <label htmlFor='name'>Full Name</label>
+          <input name="name" placeholder="Enter your full name" type='text'/>
+          <label htmlFor='email'>Email</label>
+          <input name="email" placeholder="Enter your email" type='email'/>
+          <label htmlFor='message'>Message</label>
+          <textarea rows='6' placeholder='Enter your message' name="message" required></textarea>
+          <button type='submit'>Send Message</button>
+        </form> 
+       </div>
     </div>
-  );
+  )
 }
 
 export default Contact;
