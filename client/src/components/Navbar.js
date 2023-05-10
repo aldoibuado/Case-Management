@@ -14,7 +14,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
+        <Link to="/">
         <img src={fidem} alt="company logo" />
+        </Link>
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
           <Link to="/about"> About Us </Link>
@@ -23,7 +25,7 @@ function Navbar() {
         </div>
       </div>
       <div className="rightSide">
-        <Link to="/"> Home </Link>
+        {/* <Link to="/"> Home </Link> */}
         <Link to="/about"> About Us </Link>
         <Link to="/services"> Services </Link>
         <Link to="/contact"> Contact </Link>
