@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Button } from './Button';
-import '../styles/Navbar.css';
+import { Button } from "./Button";
+// import logo from "../assets/images/Fidem logo.png";
+import "../styles/Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -22,7 +23,7 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
 
   return (
     <>
