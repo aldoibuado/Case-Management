@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Case-Management/static/css/main.bf373f6c.css",
-    "main.js": "/Case-Management/static/js/main.921b9268.js",
+    "main.css": "/Case-Management/static/css/main.8655191f.css",
+    "main.js": "/Case-Management/static/js/main.c0d07519.js",
     "static/js/787.0e058b16.chunk.js": "/Case-Management/static/js/787.0e058b16.chunk.js",
     "static/media/video-2.mp4": "/Case-Management/static/media/video-2.39e6c79bffb375ae929a.mp4",
     "static/media/nurse-helping-patient.jpg": "/Case-Management/static/media/nurse-helping-patient.42614deb12be754d5245.jpg",
@@ -9,12 +9,12 @@
     "static/media/nurse.jpg": "/Case-Management/static/media/nurse.1c7ae7091bfe26280673.jpg",
     "static/media/linkedin icon.png": "/Case-Management/static/media/linkedin icon.8747c659f1fe4f57b1c5.png",
     "index.html": "/Case-Management/index.html",
-    "main.bf373f6c.css.map": "/Case-Management/static/css/main.bf373f6c.css.map",
-    "main.921b9268.js.map": "/Case-Management/static/js/main.921b9268.js.map",
+    "main.8655191f.css.map": "/Case-Management/static/css/main.8655191f.css.map",
+    "main.c0d07519.js.map": "/Case-Management/static/js/main.c0d07519.js.map",
     "787.0e058b16.chunk.js.map": "/Case-Management/static/js/787.0e058b16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf373f6c.css",
-    "static/js/main.921b9268.js"
+    "static/css/main.8655191f.css",
+    "static/js/main.c0d07519.js"
   ]
 }
